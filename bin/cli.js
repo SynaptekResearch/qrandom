@@ -47,7 +47,7 @@ function options() {
 
 function parseNumber(number) {
 	if (number < 1 || number > 1024) {
-		console.error(`The array-length and block-size params must be between 1–1024.`);
+		console.error(`The array-length and block-size parameters must be between 1–1024.`);
 		process.exit(9);
 	}
 	return number;
@@ -63,6 +63,6 @@ function printResult(error, result) {
 		process.exit(1);
 	}
 
-	console.log(result);
+	console.log(result.toString());
 	process.exit();
 }

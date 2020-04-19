@@ -5,8 +5,21 @@
   "main": "lib/fetchNumbers.js",
   "bin": "bin/cli.js",
   "author": "Mário Garcia <mario.rggj@gmail.com>",
+  "homepage": "https://github.com/mario-rggj/quantum-random#readme",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mario-rggj/quantum-random.git"
+  },
+  "keywords": [
+    "random",
+    "true random",
+    "number",
+    "numbers",
+    "generator",
+    "quantum"
+  ],
   "dependencies": {
     "yargs": "^15.3.1"
   }
