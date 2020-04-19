@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const fetchNumbers = require(`../lib/fetchNumbers`),
+const fetchNumbers = require(`../lib/qrandom`),
     yargs = require(`yargs`);
 
 yargs
