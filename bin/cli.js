@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const fetchNumbers = require(`../lib/fetchNumbers`),
-	yargs = require(`yargs`);
+    yargs = require(`yargs`);
 
 yargs
 	.command(`$0`,
@@ -22,22 +22,21 @@ function options() {
 				`uint8`, `uint16`, `hex16`
 			],
 			"default"   : `uint8`,
-			demandOption: true,
-			description : `The data type must be 'uint8' (returns integers between 0–255), 'uint16' (returns integers between 0–65535) or 'hex16' (returns hexadecimal characters between 00–ff).`,
+			description: `The data type must be 'uint8' (returns integers between 0–255), 'uint16' (returns integers between 0–65535) or 'hex16' (returns hexadecimal characters between 00–ff).`,
 			group       : ``
 		},
 		l: {
 			alias       : `array-length`,
 			coerce      : parseNumber,
 			"default"   : 10,
-			demandOption: true,
-			description : `The length of the array to return. Must be between 1–1024.`,
+			description: `The length of the array to return. Must be between 1–1024.`,
 			group       : ``,
 			number      : true
 		},
 		s: {
 			alias      : `block-size`,
 			coerce     : parseNumber,
+			"default"  : 10,
 			description: `Only needed for 'hex16' data type. Sets the length of each block. Must be between 1–1024.`,
 			group      : ``,
 			number     : true
@@ -59,7 +58,7 @@ function run(argv) {
 
 function printResult(error, result) {
 	if (error) {
-		console.error(`` + error);
+		console.error(error);
 		process.exit(1);
 	}
 
