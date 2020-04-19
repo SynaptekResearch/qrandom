@@ -1,5 +1,5 @@
 {
-  "name": "quantum-random",
+  "name": "qrandom",
   "version": "0.1.0",
   "description": "Get true random numbers from the Australian National University Quantum Random Numbers Server API",
   "main": "lib/fetchNumbers.js",
