@@ -15,7 +15,7 @@ ___
 ## Usage
 ### Cli
 ```
-quantum-random -t -l -s
+qrandom -t -l -s
 ```
 - `-t` Sets the desired data type
   - `uint8`
@@ -26,7 +26,7 @@ quantum-random -t -l -s
 
 ### API
 ```javascript
-const quantumRandom = require('quantum-random');
+const quantumRandom = require('qrandom');
 
 // Parameters: data-type, array-length, block-size, callback
 quantumRandom('hex16', 10, 10, (error, data) => {

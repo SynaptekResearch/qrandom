@@ -5,12 +5,12 @@
   "main": "lib/fetchNumbers.js",
   "bin": "bin/cli.js",
   "author": "Mário Garcia <mario.rggj@gmail.com>",
-  "homepage": "https://github.com/mario-rggj/quantum-random#readme",
+  "homepage": "https://github.com/mario-rggj/qrandom#readme",
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mario-rggj/quantum-random.git"
+    "url": "git+ssh://git@github.com/mario-rggj/qrandom.git"
   },
   "keywords": [
     "random",
