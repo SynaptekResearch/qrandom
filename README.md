@@ -5,11 +5,11 @@ ___
 ## Installation
 ### Global
 ```
-npm i -g quantum-random
+npm i -g qrandom
 ```
 ### Local
 ```
-npm i quantum-random
+npm i qrandom
 ```
 ___
 ## Usage
